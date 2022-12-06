@@ -1,0 +1,19 @@
+{
+  "name": "redhat-cop",
+  "version": "0.0.1",
+  "description": "Red Hat Communities of Practice",
+  "main": "index.js",
+  "authors": {
+    "name": "Deven Phillips",
+    "email": "deven.phillips@redhat.com"
+  },
+  "repository": "git@github.com:InfoSec812/redhat-cop-website.git/redhat-cop",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
